@@ -1,0 +1,183 @@
+.inhalt {
+ margin: center;
+ margin-top: 80px;
+}
+
+.rainbow-background {
+   background-image: linear-gradient(red, yellow);
+ }
+
+body {
+ margin: center;
+ background-color: black;
+ font-family:  "Brush Script MT", "Lucida", "Handwriting", cursive;
+}
+
+h1 {
+  margin: center;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  margin: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: center;
+  text-align: center;
+  color: white;
+}
+
+a {
+  margin: center;
+  text-align: center;
+  color: white;
+}
+
+.lead {
+  margin: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.block_text{
+ display: block;
+ margin: right;
+ margin-left: 7;
+ margin-right: 2;
+ width: 100%;
+}
+
+.dancenames-links{
+ display: table;
+ border-spacing: auto;
+ width: 100%;
+}
+
+
+.profilbild {
+ display: block;
+ margin-left: 2;
+ margin-right: 2;
+ width: 100%;
+ border-radius: 20%;
+}
+
+.dances-button{
+ border-style: dotted;
+ border-color: gold;
+ border-width: auto;
+background-color:black;
+ margin-top: 15px;
+}
+
+.rhythms-button{
+ border-style: dotted;
+ border-color: gold;
+ border-width: auto;
+ background-color:black;
+ margin-top: 15px;
+ }
+
+.artikelbild_dances{
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.bildtitel {
+ margin: center;
+ margin-top: 8px;
+ text-align: center;
+ color: gold;
+}
+
+.artikelbilder {
+ display: block;
+ margin-left: 2;
+ margin-right: 2;
+ width: 100%;
+ border-radius: 20%;
+
+}
+
+.youtube_playlist {
+ margin: center;
+}
+
+#impressum-link{
+ color: white;
+}
+
+.footer {
+  position: fit;
+  object-fit: cover;
+  width: 100&;
+  background-color: #1e2121;
+  color: white;
+  text-align: center;
+  text-color: white;
+  margin-top: 35px;
+}
+
+
+
+.rainbow-text {
+ animation-duration: 5s;
+ background: linear-gradient(53.13deg,#FFD33D 0,#FB8532 16.02%,#EA4A5A 28.06%,#8A63D2 56.92%,#2188FF 72.93%,#34D058 84%,#FFD33D 100%);
+ background-size: auto;
+ background-clip: border-box;
+ background-clip: text;
+ color: transparent;
+ text-fill-color: transparent;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ animation: shine 6.28s alternate infinite;
+ animation-duration: 6.28s;
+ background-size: 300%;
+}
+
+@keyframes shine {
+ 0% {
+  background-position:200% center
+ }
+ 62.8% {
+  background-position:100% center
+ }
+ 100% {
+  background-position:200% center
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.area {
+  text-align: center;
+  font-size: 6em;
+  color: black;
+  font-weight: 800;
+  text-transform: uppercase;
+  animation: blur .10s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff,
+  0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 5px 0px gold,
+       0px 0px 1px #7B96B8;
+  }
+}
